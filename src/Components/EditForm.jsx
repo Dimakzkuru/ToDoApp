@@ -34,7 +34,7 @@ export const EditForm = ({ task, editTask, isFocused }) => {
       />
       <button
         type="submit"
-        className="rounded-lg bg-green-600 h-7 transition ease-in-out delay-150  hover:-translate-y-0.5 flex px-2 font-semibold text-white justify-center align-center flex  "
+        className="rounded-lg bg-green-600 h-7 transition ease-in-out delay-150  hover:-translate-y-0.5  px-2 font-semibold text-white justify-center align-center flex  "
       >
         Save Changes
       </button>

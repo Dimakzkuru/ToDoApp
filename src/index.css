@@ -3,3 +3,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer utilities {
+  .line-through-thick {
+    text-decoration: line-through;
+    text-decoration-thickness: 3px; /* Adjust the thickness as needed */
+  }
+}

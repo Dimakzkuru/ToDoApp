@@ -9,11 +9,15 @@ export const Task = ({
 }) => {
   return (
     <>
-      <div className="bg-gray-200 rounded-md pl-2 mb-3 transition ease-in-out delay-150 hover:-translate-y-1.5">
+      <div
+        className={`${
+          task.isCompleted ? "bg-gray-300" : "bg-white"
+        } rounded-md pl-2 mb-3 transition ease-in-out delay-150 hover:-translate-y-1.5`}
+      >
         <li className="flex items-center justify-center flex-row content-between ">
           {task.isCompleted ? (
             <>
-              <span className=" flex-1 text-lg font-extrabold items-center tracking-widest line-through">
+              <span className=" flex-1 text-lg font-extrabold items-center tracking-widest line-through-thick">
                 {task.input}
               </span>
               <button
