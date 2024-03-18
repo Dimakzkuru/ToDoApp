@@ -4,9 +4,9 @@ import { ToDoFormLocalStorage } from "./Components/ToDoFormLocalStorage";
 function App() {
   return (
     <main className=" w-full h-screen flex items-start justify-center bg-gradient-to-r from-slate-700 to-gray-500">
-      <BrowserRouter>
+      <BrowserRouter basename="/ToDoApp">
         <Routes>
-          <Route index element={<ToDoFormLocalStorage />} />
+          <Route path="/ToDoApp" index element={<ToDoFormLocalStorage />} />
         </Routes>
       </BrowserRouter>
     </main>
