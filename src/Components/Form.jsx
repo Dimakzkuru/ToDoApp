@@ -35,7 +35,7 @@ export const Form = ({ addTask, disabled }) => {
         />
         <button
           type="submit"
-          className="rounded-lg bg-green-600 transition ease-in-out delay-150  hover:-translate-y-0.5 px-2 font-[MadimiOne] font-sans font-semibold text-white h-11 "
+          className="rounded-lg bg-green-600 transition ease-in-out delay-150  hover:-translate-y-0.5 px-2 font-sans font-semibold text-white h-11 "
         >
           Add Task
         </button>
