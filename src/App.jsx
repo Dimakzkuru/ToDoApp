@@ -6,7 +6,7 @@ function App() {
     <main className=" w-full h-screen flex items-start justify-center bg-gradient-to-r from-slate-700 to-gray-500">
       <BrowserRouter basename="/ToDoApp">
         <Routes>
-          <Route index element={<ToDoFormLocalStorage />} />
+          <Route path="/" index element={<ToDoFormLocalStorage />} />
         </Routes>
       </BrowserRouter>
     </main>
