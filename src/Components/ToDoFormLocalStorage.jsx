@@ -65,7 +65,7 @@ export function ToDoFormLocalStorage() {
           To Do List
         </h1>
       </div>
-      <Form addTask={addTask} disabled={isInputFocused} />
+      <Form addTask={addTask} disabled={tasks.some((task) => task.isEditing)} />
       {tasks.map((task) => {
         return task.isEditing ? (
           <EditForm
