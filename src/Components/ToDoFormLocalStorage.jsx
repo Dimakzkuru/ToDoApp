@@ -59,7 +59,7 @@ export function ToDoFormLocalStorage() {
   };
 
   return (
-    <section className="m-auto sm:w-[80%] xl:w-[40%] bg-slate-900 drop-shadow-lg rounded-lg  mt-20 p-3 z-40">
+    <section className="m-auto sm:w-[80%] xl:w-[40%] bg-slate-900 drop-shadow-lg rounded-lg  mt-20 p-10 z-40">
       <div className="py-5 m-5 underline mb-5 text-slate-500">
         <h1 className="font-[Anton] text-bold text-5xl flex items-center justify-center  text-slate-100 w-25 tracking-widest">
           To Do List
