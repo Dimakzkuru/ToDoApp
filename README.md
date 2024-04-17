@@ -18,15 +18,6 @@ This is a simple ToDoList application built using React and styled with Tailwind
 - **UUID**: Library for generating unique IDs for tasks.
 - **React Router**: Library for handling routing within the React application.
 
-## Installation
-
-To run the application locally, follow these steps:
-
-1. Clone this repository to your local machine.
-2. Navigate to the project directory.
-3. Install dependencies using `npm install`.
-4. Start the development server using `npm start`.
-5. Open your web browser and visit `http://localhost:3000` to view the application.
 
 ## Usage
 
@@ -35,14 +26,4 @@ To run the application locally, follow these steps:
 - **Deleting a Task**: Click on the trash icon next to the task you want to delete.
 - **Marking a Task as Completed**: Click on the checkbox next to the task to mark it as completed.
 
-## Contributing
 
-Contributions are welcome! If you'd like to contribute to this project, please fork the repository and submit a pull request with your changes. Be sure to follow the project's coding conventions and guidelines.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-
----
-
-Feel free to customize this template further to better suit your project's needs. You can add more detailed information about specific features, provide instructions for deploying the app, or include any other relevant details.
