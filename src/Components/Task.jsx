@@ -11,7 +11,7 @@ export const Task = ({
     <>
       <div
         className={`${
-          task.isCompleted ? "bg-gray-300" : "bg-white"
+          task.isCompleted ? "bg-gray-400" : "bg-white"
         } rounded-md pl-2 mb-3 transition ease-in-out delay-150 hover:-translate-y-1.5`}
       >
         <li className="flex items-center justify-center flex-row content-between ">
@@ -27,7 +27,7 @@ export const Task = ({
             </>
           ) : (
             <>
-              <span className=" flex-1 text-lg font-bold items-center tracking-widest">
+              <span className=" flex-1 text-xl font-extrabold items-center tracking-widest ">
                 {task.input}
               </span>
               <button

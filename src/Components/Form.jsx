@@ -28,7 +28,7 @@ export const Form = ({ addTask, disabled }) => {
         <input
           type="text"
           placeholder="Write a task here"
-          className="w-6/12 rounded-md bg-white  text-md font-semibold  p-2 h-10 mr-10 "
+          className="w-6/12 rounded-md bg-white  text-lg font-bold  p-2 h-10 mr-10 "
           value={value}
           onChange={handleChange}
           required

@@ -27,7 +27,7 @@ export const EditForm = ({ task, editTask, isFocused }) => {
         ref={inputRef}
         type="text"
         placeholder=""
-        className="w-full rounded-md bg-white  text-md font-semibold flex-1 p-1 h-8 focus-within:bg-gray-300 "
+        className="w-full rounded-md bg-white  text-md font-bold flex-1 p-1 h-8 focus-within:bg-gray-300 "
         value={value}
         onChange={handleChange}
         required
